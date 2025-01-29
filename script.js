@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api/chat'; // Replace with your API URL
+const API_URL = 'https://olla-seek-chat-local.vercel.app/api/chat'; // Replace with your API URL
 // const API_KEY = '1234567890'; // API Key if required
 
 const chatMessages = document.getElementById('chat-messages');

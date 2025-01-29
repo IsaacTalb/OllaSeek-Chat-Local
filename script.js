@@ -66,7 +66,7 @@ async function sendToAI(message) {
                 // 'Authorization': `Bearer ${API_KEY}`
             },
             body: JSON.stringify({
-                model: 'deepseek-r1:1.5b', // Replace with your AI model if necessary
+                model: 'deepseek-r1:7b', // Replace with your AI model if necessary
                 prompt: message,
                 stream: false,
                 options: {

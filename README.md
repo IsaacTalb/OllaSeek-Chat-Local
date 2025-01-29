@@ -1,4 +1,4 @@
-# AI Chat Application
+# OllaSeek AI Local Chat Application
 
 A simple web-based chat application that uses the Ollama API to interact with the DeepSeek-R1 AI model.
 
@@ -9,6 +9,7 @@ Before running the application, make sure you have:
 1. [Node.js](https://nodejs.org/) installed on your system
 2. [Ollama](https://ollama.ai/) installed and running locally
 3. The DeepSeek-R1 model installed in Ollama
+4. [Git](https://git-scm.com/downloads/) installed and check in terminal with this command line: git --version
 
 ## Ollama Installation
 
@@ -53,7 +54,7 @@ After installing Ollama:
 
 2. Pull the DeepSeek-R1 model:
 ```bash
-ollama pull deepseek-r1:latest
+ollama pull deepseek-r1:7b
 ```
 
 3. Wait for the download to complete (this may take several minutes depending on your internet connection)
@@ -66,16 +67,16 @@ You should see 'deepseek-r1:latest' in the list of models
 
 5. Run the model:
 ```bash
-ollama run deepseek-r1:latest
+ollama run deepseek-r1:7b
 ```
-This will start an interactive chat session with the model in your terminal. Type 'exit' to quit the session.
+This will start an interactive chat session with the model in your terminal. Type 'exit' or 'Ctrl + d' to quit the session.
 
 ## Application Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/vrumanko/ai_deepseek_local_chat.git
-cd ai_deepseek_local_chat
+git clone https://github.com/IsaacTalb/OllaSeek-Chat-Local.git
+cd OllaSeek-Chat-Local
 ```
 
 2. Install the required dependencies:
